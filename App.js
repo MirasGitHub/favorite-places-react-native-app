@@ -8,9 +8,8 @@ import AddPlace from "./screens/AddPlace";
 import IconButton from "./components/UI/IconButton";
 import { Colors } from "./constants/colors";
 import Map from "./screens/Map";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { init } from "./util/database";
-import AppLoading from "expo-app-loading";
 import PlaceDetails from "./screens/PlaceDetails";
 
 const Stack = createNativeStackNavigator();

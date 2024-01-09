@@ -1,4 +1,4 @@
-import { View, StyleSheet, Text } from "react-native";
+import { View, StyleSheet } from "react-native";
 import PlaceForm from "../components/Places/PlaceForm";
 import { insertPlace } from "../util/database";
 

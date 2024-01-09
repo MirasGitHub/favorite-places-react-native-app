@@ -1,10 +1,4 @@
-import {
-	View,
-	StyleSheet,
-	FlatList,
-	Text,
-	ActivityIndicator,
-} from "react-native";
+import { View, StyleSheet, FlatList, Text } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import PlaceItem from "./PlaceItem";
 import { Colors } from "../../constants/colors";
